@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+{# Jinja Flask 내장 Template 엔진, 주석 #}
+<body>
+    {% if title %}
+        <p>{{ title }}</p>                 {# 변수 또는 간단한 수식 #}
+    {% endif %}
+    <a href="/first">Go First</a>
+    <a href="/second">Go Second</a>
+</body>
+</html>
